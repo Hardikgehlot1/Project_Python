@@ -32,7 +32,7 @@ with open (csvpath) as csvfile:
             winner = candidate
         output.append(result[candidate])    
    
-with open('output.txt', 'w') as output_file:
+with open('analysis/output.txt', 'w') as output_file:
     print('Total Votes: ', Total_votes-1)
     output_file.write('Total Votes: {} \n'.format(New_votes))
     print('-------------------------')
